@@ -4,11 +4,11 @@ class Iii < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/iii-hq/iii/releases/download/v0.5.3/iii-aarch64-apple-darwin.tar.gz"
-      sha256 "92401b04f1d07911b5ed95fb36808359d2578daa5c7c8f108383087d1bcb692d"
+      url "https://github.com/iii-hq/iii/releases/download/v0.6.0/iii-aarch64-apple-darwin.tar.gz"
+      sha256 "bfd0945d563ef8c1e6e0bdb1e2db68f1c23d00f3864a3bd743364d86e005f22e"
     else
-      url "https://github.com/iii-hq/iii/releases/download/v0.5.3/iii-x86_64-apple-darwin.tar.gz"
-      sha256 "a314b4c99e41c3dea1909bf743436323eabbe0402ef002c924c28177d5352413"
+      url "https://github.com/iii-hq/iii/releases/download/v0.6.0/iii-x86_64-apple-darwin.tar.gz"
+      sha256 "55017828b584e59c092a32ac2c071f9a0e08992ce3edeeb85a707e94e6ec15f2"
     end
   end
 
