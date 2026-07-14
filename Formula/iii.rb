@@ -1,16 +1,16 @@
 class Iii < Formula
   desc "WebSocket-based process communication engine"
   homepage "https://github.com/iii-hq/iii"
-  version "0.21.5"
+  version "0.21.6"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/iii-hq/iii/releases/download/iii/v0.21.5/iii-aarch64-apple-darwin.tar.gz"
-      sha256 "56271f4ae6d13fcd889370fe081f5efb83911384c692b7135f089426df0d51b9"
+      url "https://github.com/iii-hq/iii/releases/download/iii/v0.21.6/iii-aarch64-apple-darwin.tar.gz"
+      sha256 "ceb99ac342fbdb07fafc1adce4ea853a782c3790da7020b630b95beb59bacedd"
     else
-      url "https://github.com/iii-hq/iii/releases/download/iii/v0.21.5/iii-x86_64-apple-darwin.tar.gz"
-      sha256 "b4ed67462cb5c600b668f2ceff393867c116f683f089b9baff6b543f5ac6fd87"
+      url "https://github.com/iii-hq/iii/releases/download/iii/v0.21.6/iii-x86_64-apple-darwin.tar.gz"
+      sha256 "2eb4c4c7d0109122de50ee92b2abfb10daf5e9624b369982057df62f9d31c87c"
     end
   end
 
