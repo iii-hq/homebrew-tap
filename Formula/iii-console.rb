@@ -1,26 +1,26 @@
 class IiiConsole < Formula
   desc "Developer console for the iii engine"
   homepage "https://github.com/iii-hq/iii"
-  version "0.24.1"
+  version "0.24.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.1/iii-console-aarch64-apple-darwin.tar.gz"
-      sha256 "5209b766e6fdb83368f01da2223d319fc330b3b333cf3c37bf05a1fe503a5836"
+      url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.2/iii-console-aarch64-apple-darwin.tar.gz"
+      sha256 "7126c76ac373042a34d9a171f6ac3ef2faf5e0c11aa701ad524144b1fd96e835"
     else
-      url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.1/iii-console-x86_64-apple-darwin.tar.gz"
-      sha256 "ae8b698845399f9f0f7da71a5d30fce952f245013f7d27797a2b23ca8bfbe869"
+      url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.2/iii-console-x86_64-apple-darwin.tar.gz"
+      sha256 "5d9b2713384b108ce56cf4287cb72db9a7991b46d087c05bf8b0208e2e7921ae"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.1/iii-console-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "15befd235e010aeeff7b64a095f593274a1727b8f5c56b195a4201a3fe8fdd55"
+      url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.2/iii-console-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ba6159633e48705793060c43d8768adfafe1b50a7e4d37c0afb7732e1d6e71de"
     else
-      url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.1/iii-console-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d72ce4b14925c183e81b13a623bf988c5f2541cd17342c46af18dab98c0ad486"
+      url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.2/iii-console-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fcc80ee36c0d6bba8d79d0e4c9f74e7069604ee25de37b4738a969b94c5d3318"
     end
   end
 
