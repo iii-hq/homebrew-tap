@@ -4,6 +4,10 @@ class IiiConsole < Formula
   version "0.24.6"
   license "Apache-2.0"
 
+  # iii 0.25.0 removed the legacy console in favour of the iii console in ADE
+  # (MOT-3619). The release workflow no longer updates this formula.
+  deprecate! date: "2026-10-21", because: "is replaced by the iii console in ADE: run `iii trigger compose::add worker=ade` in your iii project (https://iii.dev/docs/using-iii/console)"
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/iii-hq/iii/releases/download/iii/v0.24.6/iii-console-aarch64-apple-darwin.tar.gz"
